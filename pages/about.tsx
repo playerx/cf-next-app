@@ -18,7 +18,7 @@ export default function About({ hasApiKey }: { hasApiKey: boolean }) {
         <title>About Page {hasApiKey}</title>
       </Head>
 
-      <main className={styles.main}>About Page</main>
+      <main className={styles.main}>About Page {hasApiKey}</main>
     </>
   );
 }
